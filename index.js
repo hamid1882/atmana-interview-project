@@ -12,7 +12,7 @@ function fetchCategories() {
       let output = `<button hidden></button>`;
       users.forEach(function (user, idx) {
         output += `
-        <button id="button" class="filter-btn" value=${user} onclick="renderValue(this)">
+        <button id="button" class="filter-btn " value=${user}  onclick="renderValue(this)">
                       ${user}
                   </button>
               `;
